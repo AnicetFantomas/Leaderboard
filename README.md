@@ -1,6 +1,6 @@
 # Leaderboard
 
-> In this project we created a simple application structure of an application that will store users scores
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 ## How it looks like :
 
@@ -9,10 +9,9 @@
 
 ## Built With
 
-- HTML
-- CSS
-- JavaScript
-- webpack
+- Major languages: Javascript, HTML & CSS
+- Frameworks: none
+- Technologies used: Webpack, Leaderboard API service
 
 ## Live Demo is avaible here
 
@@ -30,14 +29,13 @@ https://github.com/AnicetFantomas/Leaderboard.git
 
 Run the index.html on a live server.
 ```
-## To run it go to your command line and
+## Prerequisites
 
+The basic requirements for building the javascript are:
 ```
-npm start
-
-npm install 
-
-npm init
+- A working browser application (Google chrome, Mozilla Firefox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking and or debugging bad codes before deployment)
 ```
 
 ### Deployment

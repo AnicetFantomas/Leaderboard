@@ -10,17 +10,17 @@
         <h1>Leaderboard</h1>
         <div class="scores-container">
             <div class="scores">
-                <div class="scores-header"> <h2>Recent scores</h2> <button type="button">Refresh</button> </div>
-                <ul class="my-list">
+                <div class="scores-header"> <h2>Recent scores</h2> <button type="button" id="refresh-btn">Refresh</button> </div>
+                <ul id="my-list">
     
                 </ul>
             </div>
             <div class="scores-form">
                 <h2>Add your score</h2>
-                <form action="#">
+                <form action="#" class="myForm">
                     <input type="text" name="name" id="name" placeholder="Your name" >
-                    <input type="text" name="score" id="score" placeholder="Your score">
-                    <button type="submit">Submit</button>
+                    <input type="number" name="score" id="score" placeholder="Your score">
+                    <button type="submit" id="form-btn">Submit</button>
                 </form>
             </div>
         </div>

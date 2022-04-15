@@ -1,8 +1,15 @@
 import './style.css';
+import { loadData, loadScores, getScores } from './modules/scoreUI';
 
-const dataArr = [100, 20, 50, 78, 125, 77, 42];
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/AkKe5vSRElL4hhJr8Kvj/scores';
+const refreshBtn = document.getElementById('refresh-btn');
+const getForm = document.querySelector('.myForm');
 
-for (let i = 0; i < dataArr.length; i += 1) {
-    const myList = document.querySelector('.my-list');
-    myList.innerHTML += `<li>Name: ${dataArr[i]}</li>`
-}
+window.addEventListener('load', () => loadScores(url))
+refreshBtn.addEventListener('click',() => loadScores(url));
+getForm.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  await getScores(url, loadData());
+  loadScores(url);
+  getForm.reset();
+})
