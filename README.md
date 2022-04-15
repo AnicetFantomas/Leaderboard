@@ -4,7 +4,8 @@
 
 ## How it looks like :
 
-![milestone1](https://user-images.githubusercontent.com/94958024/163139388-4350003e-c42b-481a-bfa4-32128ccc3731.png)
+![style](https://user-images.githubusercontent.com/94958024/163553708-34076e8b-427d-4d9b-899c-079bf2acef4b.png)
+
 
 
 ## Built With
