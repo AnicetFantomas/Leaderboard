@@ -28,8 +28,13 @@ git clone
 
 https://github.com/AnicetFantomas/Leaderboard.git
 
-Run the index.html on a live server.
 ```
+### To run this project locacally
+```
+  - mpm install
+  - npm start
+```
+
 ## Prerequisites
 
 The basic requirements for building the javascript are:
